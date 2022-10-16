@@ -10,7 +10,7 @@ pygame.display.set_caption("game")
 
 # 배경 이미지 불러오기
 
-background = pygame.image.load("./image/Test_background.png")
+background = pygame.image.load("../image/Test_background.png")
 
 running = True
 

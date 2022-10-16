@@ -8,11 +8,11 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 
 pygame.display.set_caption("game")
 
-background = pygame.image.load("./image/Test_Background.png")
+background = pygame.image.load("../image/Test_Background.png")
 
 # 스프라이트(오브젝트) 불러오기
 
-character = pygame.image.load("./image/character.png")
+character = pygame.image.load("../image/character.png")
 
 character_size = character.get_rect().size # 스프라이트 크기 가져오기 [0]은 가로, [1]은 세로크기
 character_width = character_size[0] # 가로크기로 초기화

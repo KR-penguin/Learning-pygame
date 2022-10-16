@@ -9,12 +9,12 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 
 pygame.display.set_caption("game")
 
-background = pygame.image.load("./image/Test_Background.png")
+background = pygame.image.load("../image/Test_Background.png")
 
 background_X_pos = 0
 background_Y_pos = 0
 
-character = pygame.image.load("./image/character.png")
+character = pygame.image.load("../image/character.png")
 
 character_size = character.get_rect().size 
 character_width = character_size[0] 
